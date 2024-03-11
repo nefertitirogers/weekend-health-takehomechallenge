@@ -2,9 +2,7 @@
 
 Explanation of solution:
 
-High-level solution to this problem involves storing the character count of each character in the input string in object. For each word in the dictionary we will create a  
-character count object as well and compare it against the character count object of the input string. 
-Iterating over the keys, we will check if a character is present in the input string character count object or if that character is present more times than in the input string. If neither condition applies, we have a match and should return this string as part of the result. 
+High-level solution to this problem involves storing the character count of each character in the input string in object. For each word in the dictionary we will create a character count object as well and compare it against the character count object of the input string. Iterating over the keys, we will check if a character is present in the input string character count object or if that character is present more times than in the input string. If neither condition applies, we have a match and should return this string as part of the result. 
 
 Other approaches I considered:
 
@@ -14,5 +12,4 @@ I also considered an approach that involves sorting the input string and sorting
 
 Notes:
 
-In solving this propblem, I assumed I didn't have to consider white space, numbers, uppercase letters or other non-alphanumeric characters since the 
-problem statement expresses that the strings we are comparing against will be strictly made up of lowercase english letters.
+In solving this propblem, I assumed I didn't have to consider white space, numbers, uppercase letters or other non-alphanumeric characters since the problem statement expresses that the strings we are comparing against will be strictly made up of lowercase english letters.
